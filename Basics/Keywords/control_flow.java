@@ -9,6 +9,9 @@ class control_flow {
         } else {
             System.out.println("x is not greater than 5");
         }
+        for (int i = 0; i < 5; i++) {
+            System.out.println("i: " + i);
+        }
         sc.close();
     }
  }
